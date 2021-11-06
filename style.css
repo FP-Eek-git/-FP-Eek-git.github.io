@@ -34,20 +34,20 @@ main {
 }
 
 .navbar {
-  position: fixed;
-  background-color: var(--bg-primary);
-  transition: width 600ms ease;
-  overflow: scroll;
+  position: fixed ;
+  background-color: var(--bg-primary) ;
+  transition: width 600ms ease ;
+  overflow: hidden ;
 }
 
 .navbar-nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
+  list-style: none ;
+  padding: 0 ;
+  margin: 0 ;
+  display: flex ;
+  flex-direction: column ;
+  align-items: center ;
+  height: 100% ;
 }
 
 .nav-item {
@@ -55,14 +55,14 @@ main {
 }
 
 .nav-item:last-child {
-  margin-top: auto;
+  margin-top: auto ;
 }
 
 .nav-link {
   display: flex;
   align-items: center;
   height: 5rem;
-  color: var(--text-primary);
+  color: var(--text-primary );
   text-decoration: none;
   filter: grayscale(100%) opacity(0.7);
   transition: var(--transition-speed);
@@ -70,8 +70,8 @@ main {
 
 .nav-link:hover {
   filter: grayscale(0%) opacity(1);
-  background: var(--bg-secondary);
-  color: var(--text-secondary);
+  background: var(--bg-secondary) ;
+  color: var(--text-secondary) ;
 }
 
 .link-text {
@@ -80,9 +80,9 @@ main {
 }
 
 .nav-link svg {
-  width: 2rem;
-  min-width: 2rem;
-  margin: 0 1.5rem;
+  width: 2rem ;
+  min-width: 2rem ;
+  margin: 0 1.5rem ;
 }
 
 .fa-primary {
@@ -144,7 +144,7 @@ main {
   }
 
   .nav-link {
-    justify-content: center;
+    justify-content: center ;
   }
 
   main {
@@ -214,4 +214,8 @@ main {
 
 .solar #solarIcon {
   display: block;
+}
+
+.main-screen {
+    background-color: #23232e;
 }
