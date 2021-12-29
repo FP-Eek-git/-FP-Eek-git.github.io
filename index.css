@@ -1,0 +1,13 @@
+.page-header{
+    position: relative;
+    margin-right: 40%;
+    background-color: grey;
+    margin-left: 40%;
+    text-align: center;
+}
+
+.main-screen {
+    background-color: #63638d;
+    --text-primary: #b6b6b6 !important;
+    --text-secondary: #ececec;
+}
