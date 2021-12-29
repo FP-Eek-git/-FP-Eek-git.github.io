@@ -7,7 +7,7 @@
 }
 
 .main-screen {
-    background-color: #63638d;
+    background-color: #63638d !important;
     --text-primary: #b6b6b6 !important;
     --text-secondary: #ececec;
 }
